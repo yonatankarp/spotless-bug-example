@@ -30,7 +30,7 @@ allprojects {
                     "ktlint_standard_trailing-comma-on-declaration-site" to "disabled",
                 ),
             )
-            diktat("1.2.3").configFile("${rootProject.rootDir}/config/diktat/diktat-analysis.yml")
+            diktat("1.2.5").configFile("${rootProject.rootDir}/config/diktat/diktat-analysis.yml")
         }
     }
 }
